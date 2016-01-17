@@ -1,0 +1,23 @@
+<table class="table">
+    <tr>
+        <td>
+        </td>
+        <td>
+            Name
+        </td>
+        <td>
+            <a>Details</a>
+        </td>
+    </tr>
+    <tr ng-repeat="d in data">
+       <td>
+           <img src="{{d.picture.thumbnail}}">
+        </td>
+        <td>
+            {{d.first}}
+        </td>
+        <td>
+            <a href="#/template2" ng-click="service(d)">Details</a>
+        </td>
+    </tr>
+</table>
